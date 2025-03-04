@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+
+.logo {
+  font-size: 18px;
+  font-family: "Audiowide", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+/* * {
+  user-select: none;
+} */
+
+/* Apply to all elements within Ant Design components (or adjust selectors as needed) */
+.ant-component-class ::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background: transparent;
+}
+
+.ant-component-class ::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
